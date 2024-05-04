@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>first project</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="https://goiteens.ua/images/header/logo.png" alt="logo" />
+      </div>
+      <nav>
+        <ul>
+          <li>item1</li>
+          <li>item2</li>
+          <li>item3</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <title>title</title>
+        <article>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi totam
+          distinctio officia beatae sit nulla accusamus corrupti ratione
+          repudiandae! Doloremque, error aut libero adipisci ex ducimus natus
+          quaerat id iure neque, rem quae maiores magnam. Debitis possimus iste
+          earum atque sunt vitae incidunt tenetur dolores! Ipsum sapiente
+          laboriosam ipsam iusto vitae, nisi dolorem doloribus fuga iure ducimus
+          voluptas. Sapiente quam optio placeat, modi voluptatum, ea aliquid
+          eaque illum nesciunt voluptas reprehenderit nemo exercitationem,
+          veniam perferendis earum officia error sequi mollitia officiis
+          molestiae quo! Magnam atque quis delectus ducimus aspernatur
+          cupiditate obcaecati sint corporis veritatis quam, velit dolorum
+          beatae numquam tempore.
+        </article>
+      </section>
+      <section>
+        <title>title</title>
+        <article>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi totam
+          distinctio officia beatae sit nulla accusamus corrupti ratione
+          repudiandae! Doloremque, error aut libero adipisci ex ducimus natus
+          quaerat id iure neque, rem quae maiores magnam. Debitis possimus iste
+          earum atque sunt vitae incidunt tenetur dolores! Ipsum sapiente
+          laboriosam ipsam iusto vitae, nisi dolorem doloribus fuga iure ducimus
+          voluptas. Sapiente quam optio placeat, modi voluptatum, ea aliquid
+          eaque illum nesciunt voluptas reprehenderit nemo exercitationem,
+          veniam perferendis earum officia error sequi mollitia officiis
+          molestiae quo! Magnam atque quis delectus ducimus aspernatur
+          cupiditate obcaecati sint corporis veritatis quam, velit dolorum
+          beatae numquam tempore.
+        </article>
+      </section>
+      <section>
+        <title>title</title>
+        <article>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi totam
+          distinctio officia beatae sit nulla accusamus corrupti ratione
+          repudiandae! Doloremque, error aut libero adipisci ex ducimus natus
+          quaerat id iure neque, rem quae maiores magnam. Debitis possimus iste
+          earum atque sunt vitae incidunt tenetur dolores! Ipsum sapiente
+          laboriosam ipsam iusto vitae, nisi dolorem doloribus fuga iure ducimus
+          voluptas. Sapiente quam optio placeat, modi voluptatum, ea aliquid
+          eaque illum nesciunt voluptas reprehenderit nemo exercitationem,
+          veniam perferendis earum officia error sequi mollitia officiis
+          molestiae quo! Magnam atque quis delectus ducimus aspernatur
+          cupiditate obcaecati sint corporis veritatis quam, velit dolorum
+          beatae numquam tempore.
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p>Email: <a href="mailto:example@example.com">example@example.com</a></p>
+      <p>Phone: <a href="tel:+1234567890">+1234567890</a></p>
+    </footer>
+  </body>
+</html>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+
+  /* header  */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+
+  /* main */
+  main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  section {
+    flex: 1;
+    background-color: #fff;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  article {
+    padding: 20px;
+  }
+
+  title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 768px) {
+    main {
+      flex-direction: column;
+    }
+
+    section {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+
+  /* footer  */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  footer p {
+    margin: 10px 0;
+  }
+
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  footer a:hover {
+    color: #ffcc00;
+  }
+</style>
